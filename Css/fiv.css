@@ -1,0 +1,43 @@
+body {
+  background-image: url(/Images/10.jpg);
+}
+div {
+  background-color: rgb(224, 221, 221);
+  margin: 1px;
+  border-radius: 3px;
+}
+img {
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  width: 100px;
+  height: 100px;
+}
+p {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+}
+h3 {
+  transform: rotate(-90deg);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h5 {
+  transform: rotate(-90deg);
+}
+
+.left {
+  float: left;
+  background-color: forestgreen;
+}
+.right {
+  float: right;
+  background-color: darkgray;
+}
+section {
+  display: flex;
+}

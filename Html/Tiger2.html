@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img {
+        position: relative;
+        left: 50%;
+        animation: move 4s linear infinite alternate;
+      }
+      @keyframes move {
+        0% {
+          transform: rotateY(0deg) translateX(0);
+        }
+        25% {
+          transform: rotateY(45deg) translateX(75);
+        }
+        50% {
+          transform: rotateY(90deg) translateX(150px);
+        }
+        75% {
+          transform: rotateY(135deg) translateX(225px);
+        }
+        100% {
+          transform: rotateY(180deg) translateX(300px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/Images/tiger.gif" alt="Tiger Image" />
+  </body>
+</html>

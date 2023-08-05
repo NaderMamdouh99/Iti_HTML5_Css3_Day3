@@ -1,0 +1,28 @@
+#img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: RigthToLeft;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes RigthToLeft {
+  0% {
+    right: 0%;
+  }
+  25% {
+    right: 25%;
+  }
+  50% {
+    right: 50%;
+  }
+  75% {
+    right: 75%;
+  }
+  100% {
+    right: 0%;
+  }
+}

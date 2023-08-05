@@ -1,0 +1,35 @@
+body {
+  background-image: url(/Images/10.jpg);
+}
+section {
+  transition-duration: 3s;
+}
+img {
+  margin: 5%;
+  align-items: center;
+  transition: all 3s;
+}
+img:hover {
+  transform: scale(1.5);
+}
+
+input {
+  align-items: center;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 60px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  transition: all 3s;
+}
+input:hover {
+  transform: scale(1.1);
+}
+
+div {
+  column-count: 3;
+  column-gap: 2px;
+  column-rule: solid 3px rgb(252, 252, 252);
+}
